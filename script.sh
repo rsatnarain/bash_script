@@ -3,15 +3,9 @@
 # Description: Bash Scripting Example with Mac 
 
 #!/bin/bash
-hostname_value=$(hostname)
-ip_address=$(hostname -I | awk '{print $1}')
-echo "Hello from a script"
-echo "Hostname: $hostname_value"
-echo "IP Address: $ip_address"
-
-ping -c 1 google.com
-if [ $? -eq 0 ]; then
-    echo "Internet connectivity is working."
-else
-    echo "Internet connectivity is not working."
-fi
+echo "Hello from my EC2 instance running on Mac!"
+echo "This script demonstrates basic bash scripting on a Mac environment."
+echo "Current date and time: $(date)"
+echo "Listing files in the current directory:"
+ls -l
+echo "Script execution completed."
