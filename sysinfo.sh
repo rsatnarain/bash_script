@@ -1,6 +1,6 @@
 #!/bin/bash
 
-report "system_report_$(date +%F).txt
+report "system_report_$(date +%F).txt"
 
 echo "System Report" > "$report"
 echo "------------------------------"
