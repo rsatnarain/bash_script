@@ -71,7 +71,7 @@ echo "------" >> "$report"
 # Iterates through the 'files' array and pipes names to 'sort' for alphabetical order.
 for f in "${files[@]}"; do
     echo "$f" >> "$report"
+done | sort
 
 echo "Data saved to $report"
 echo "System report generation completed."
-done | sort
