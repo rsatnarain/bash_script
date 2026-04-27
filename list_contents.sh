@@ -1,3 +1,7 @@
+# Author: Rob
+# Creation Date: 2026-04-26
+# Description: Bash Scripting Example - list contents of a directory and generate a report.
+
 #!/bin/bash
 
 # --- PARAMETERS & VARIABLES ---
@@ -74,4 +78,4 @@ for f in "${files[@]}"; do
 done | sort
 
 echo "Data saved to $report"
-echo "System report generation completed."
+echo "System report generation completed." >> "$report"
