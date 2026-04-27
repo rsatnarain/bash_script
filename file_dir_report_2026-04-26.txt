@@ -1,0 +1,14 @@
+Target Directory: .
+--------------------------
+Total unhidden files: 6
+
+Directories:
+------------
+Files:
+------
+file_dir_report_2026-04-26.txt
+hostcheck.sh
+list_contents.sh
+script.sh
+sysinfo.sh
+system_report_2026-04-26.txt
